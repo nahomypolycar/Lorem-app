@@ -1,5 +1,5 @@
-const description = (props) => {
+const Description = (props) => {
   return <p>{props.text}</p>;
 };
 
-export default description;
+export default Description;
