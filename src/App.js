@@ -6,10 +6,16 @@ import Title from "./components/Title";
 
 const Lorem = () => {
   return (
-    <div>
-      <Title name="Lorem" />
-      <Description text="exemple" />
-    </div>
+    (
+      <div>
+        <Title nameTitle="Lorem" />
+      </div>
+    ),
+    (
+      <div>
+        <Description textDescription="exemple" />
+      </div>
+    )
   );
 };
 
